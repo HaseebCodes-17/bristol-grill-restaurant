@@ -1,0 +1,24 @@
+/* Custom styles for Swiper navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+    color: orange;
+    /* Set button color to orange */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /* Add black shadow */
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: #ff8800;
+    /* Slightly brighter orange on hover */
+}
+
+.swiper-pagination-bullet {
+    background-color: orange;
+    /* Pagination bullets orange */
+}
+
+.swiper-pagination-bullet-active {
+    background-color: black;
+    /* Active bullet black */
+}

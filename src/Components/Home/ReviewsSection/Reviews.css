@@ -1,0 +1,17 @@
+.mySwiper .swiper-pagination-bullet {
+    background-color: orange;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+    background-color: orange;
+}
+
+.mySwiper .swiper-button-prev,
+.mySwiper .swiper-button-next {
+    color: orange;
+}
+
+.mySwiper .swiper-button-prev:hover,
+.mySwiper .swiper-button-next:hover {
+    background-color: orange;
+}

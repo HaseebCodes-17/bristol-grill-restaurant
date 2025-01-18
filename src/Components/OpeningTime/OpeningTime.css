@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+/* Import in your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500&display=swap');
+
+/* .opening-time-header {
+    background: url("https://images.unsplash.com/37/tEREUy1vSfuSu8LzTop3_IMG_2538.jpg?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center fixed;
+} */
+
+.opening-time-header h2 {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}

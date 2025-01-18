@@ -1,0 +1,18 @@
+.gallery-container {
+    position: relative;
+    margin: auto;
+}
+
+.splide__slide img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.thumbnail-slider .splide__slide img {
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.thumbnail-slider .splide__slide.is-active img {
+    border-color: #007bff;
+}
