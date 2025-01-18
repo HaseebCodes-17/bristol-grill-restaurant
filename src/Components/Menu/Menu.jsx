@@ -26,7 +26,7 @@ const Menu = () => {
             Notify Me
           </Button>
           <Button
-            href="/test/"
+            href="/"
             variant="outlined"
             color="primary"
             sx={{ fontSize: "16px" }}

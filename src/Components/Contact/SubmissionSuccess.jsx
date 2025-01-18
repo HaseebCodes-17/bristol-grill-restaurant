@@ -44,7 +44,7 @@ const SubmissionSuccess = () => {
           Thank you for reaching out to us. We'll get back to you soon.
         </Typography>
         <Button
-          href="/test/"
+          href="/"
           variant="contained"
           sx={{
             backgroundColor: "#ce7c41",

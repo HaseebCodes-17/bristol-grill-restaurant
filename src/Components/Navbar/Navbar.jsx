@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import NavLinks from "./NavLinks";
 import ToggleCheckBtn from "./ToggleCheckBtn";
 import "./Navbar.css";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
             "3px 3px 6px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(255, 255, 255, 0.3)",
         }}
       >
-        <a href="/test/">
+        <NavLink to="/">
           Bristol<span className="text-orange-500">Grill</span>
           <h2
             className="text-xl text-orange-500 font-serif"
@@ -27,7 +28,7 @@ const Navbar = () => {
           >
             The Tasty House
           </h2>
-        </a>
+        </NavLink>
       </h1>
 
       {/* Toggle and Nav Links */}
